@@ -1,4 +1,4 @@
-module github.com/acernus18/dwarf
+module dwarf
 
 go 1.18
 
