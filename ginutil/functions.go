@@ -2,8 +2,8 @@ package ginutil
 
 import (
 	"fmt"
-	"github.com/acernus18/dwarlf/gormutil"
-	"github.com/acernus18/dwarlf/jwtutil"
+	"github.com/acernus18/dwarf/gormutil"
+	"github.com/acernus18/dwarf/jwtutil"
 	"github.com/duke-git/lancet/v2/random"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"

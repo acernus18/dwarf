@@ -3,7 +3,6 @@ module github.com/acernus18/dwarf
 go 1.18
 
 require (
-	github.com/acernus18/dwarlf v0.0.3
 	github.com/bluele/gcache v0.0.2
 	github.com/duke-git/lancet/v2 v2.0.8
 	github.com/gin-gonic/gin v1.8.1

@@ -2,7 +2,7 @@ package configutil
 
 import (
 	"fmt"
-	"github.com/acernus18/dwarlf/ginutil"
+	"github.com/acernus18/dwarf/ginutil"
 	"github.com/bluele/gcache"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

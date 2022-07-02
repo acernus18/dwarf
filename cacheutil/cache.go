@@ -1,7 +1,7 @@
 package cacheutil
 
 import (
-	"github.com/acernus18/dwarlf/serializeutil"
+	"github.com/acernus18/dwarf/serializeutil"
 	"github.com/bluele/gcache"
 	"time"
 )

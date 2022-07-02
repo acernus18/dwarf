@@ -2,7 +2,7 @@ package gormutil
 
 import (
 	"fmt"
-	"github.com/acernus18/dwarlf/serializeutil"
+	"github.com/acernus18/dwarf/serializeutil"
 	"gorm.io/gorm"
 	"strings"
 	"unicode"

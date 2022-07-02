@@ -3,7 +3,7 @@ package requestutil
 import (
 	"bytes"
 	"crypto/tls"
-	"github.com/acernus18/dwarlf/serializeutil"
+	"github.com/acernus18/dwarf/serializeutil"
 	"io/ioutil"
 	"net/http"
 )
