@@ -6,6 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"gorm.io/datatypes"
 	"gorm.io/gorm"
+	"strings"
 )
 
 type LoggerConfig struct {
@@ -130,7 +131,7 @@ func (s ScopesParams) Order() func(*gorm.DB) *gorm.DB {
 					orders = append(orders, fmt.Sprintf("`%s`", caseToCamel(s.Orders[i].Order)))
 				}
 			}
-			tx = tx.Order(orders)
+			tx = tx.Order(strings.Join(orders, ","))
 		}
 		return tx
 	}
