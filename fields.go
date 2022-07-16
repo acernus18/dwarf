@@ -123,7 +123,7 @@ func (s ScopesParams) Order() func(*gorm.DB) *gorm.DB {
 	return func(db *gorm.DB) *gorm.DB {
 		tx := db
 		if len(s.Orders) > 0 {
-			orders := make([]string, len(s.Orders))
+			orders := make([]string, 0)
 			for i := range s.Orders {
 				if s.Orders[i].Desc {
 					orders = append(orders, fmt.Sprintf("`%s` DESC", caseToCamel(s.Orders[i].Order)))
